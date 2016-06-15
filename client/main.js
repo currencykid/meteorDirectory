@@ -1,10 +1,13 @@
 import { Meteor } from 'meteor/meteor';
 import React from 'react' ;
 import ReactDOM from 'react-dom'; 
+import EmployeeList from './components/employeeList';
 
 const App = () => {
   return (
-    <div>Hello there</div> 
+    <div>
+      <EmployeeList /> 
+    </div> 
   );
 };
 
